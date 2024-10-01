@@ -1,0 +1,246 @@
+                                                                                                                                                                                                                                                                                                  
+body{
+    font-family: "Josefin Sans", system-ui;
+}
+/*nav*/
+.navbar{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap:70px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.nav-links:hover{
+     color: #496BF1;
+}
+/*nav*/
+/*main*/
+h1{
+    font-size: 40px;
+    text-align: right;
+    padding-right: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgb(141,141,141);
+}
+.hero-content{
+    font-size: 18px;
+    margin: auto;
+   max-width: 800px;
+    line-height: 1.8;
+    padding-left: 90px;
+    text-align: right;
+}
+.hero{
+     background-image: url("../image/hero-section-bg.png"); 
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 400px;
+}
+ .hero-content{
+    padding: 30px;
+    padding-right: 70px;
+    text-align: left;
+    border-right: 100px;
+    margin-left: 600px;
+}
+.hero-content h1{
+    color: #496BF1;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 10%;
+}
+.p{
+    margin-right: 60px;
+}
+.hero-content p{
+    color: #000;
+    margin: auto;
+    max-width: 650px;
+    line-height: 1.8;
+    text-align: left;
+    position: relative;
+}
+.button-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+.Aboutus-primary{
+    width: 10;
+    background-color: #496BF1;
+}
+.Bookappointment-secondary{
+    width: 10;
+    background-color: #2DD6C1;
+}
+.Bookappointment{
+    width: 90;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}                                                                                                                                                                                                                                                                                                                                                                                                                           
+.services{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    align-items: center;
+    padding: 0 40px;
+    gap: 50px;
+    margin: 0 auto;
+}
+.service-box{
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0 8px 8px  rgba(0,0,0,0.1);
+    width: 20%;
+    text-align: center;
+}
+.service-box h2{
+    margin-bottom: 15px;
+    color: #496BF1;
+}
+#g{
+    color: #2DD6C1;
+}
+#b{
+    color: #496BF1;
+}
+.about-us{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px;
+}
+.about-image{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.about-text{
+    margin-bottom: 15px;
+    padding-left: 10%;
+    font-size: 20px;
+    text-align: left;
+}
+.about-title{
+    padding-left: 6%;
+}
+.button-container{
+    padding-left: 6%;
+}
+.read-more{
+   width: 10;
+   background-color: #496BF1;
+}
+.testimonial-header{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-h2{
+    display: flex;
+    justify-content: center;
+}
+.testimonial-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.hellip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10vh;
+    gap: 20px;
+}
+.item{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.item1{
+    background-color: #496BF1;
+}
+.item2{
+    background-color: #2DD6C1;
+}
+.hear-header{
+    text-align: center;
+}
+.contact{
+    background-image: url("../image/contact-section-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 400px;
+}
+.communication{
+    margin: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.name{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.email{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.subject{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.message{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.btn-submit{
+    width: 10;
+    background-color: #496BF1;
+    margin-bottom: 80px;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+}
+.ul-footer{
+    list-style: none;
+}
+          
